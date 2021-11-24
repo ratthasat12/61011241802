@@ -13,6 +13,7 @@ _สาขาวิชาเทคโนโลยีสารสนเทศ_
 
 [LAB1](https://github.com/ratthasat12/4134901-2-64/tree/master/LAB1)
 [LAB2](https://github.com/ratthasat12/4134901-2-64/tree/master/LAB2)
+[LAB3](https://github.com/ratthasat12/4134901-2-64/tree/master/LAB3)
 
 ### RUN  
 
