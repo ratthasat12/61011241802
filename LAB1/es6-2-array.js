@@ -68,7 +68,7 @@ function addNumbs(total, value) {
 }
 
 //check every value in array => true / false
-let over10 = numbs.every(over10fn);
+over10 = numbs.every(over10fn);
 console.log(over10);
 
 function over10fn(value){
@@ -86,4 +86,4 @@ console.log(firstIndex);
 
 const alphabet = "ABCDEF"
 let arrAlph = Array.from(alphabet);
-console.log(arrAlph);
+console.log(arrAlph)
