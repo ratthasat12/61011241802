@@ -10,12 +10,12 @@ console.log(cities[1]);
 
 ///Array Method
 let car = cars.pop();
+console.log(car);
+cars.push("Honda");
 console.log(cars);
-newCars.push("Honda")
+cars.shift();
 console.log(cars);
-newCars.shift();
-console.log(cars);
-newCars.unshift("Tata");
+cars.unshift("Tata");
 console.log(cars);
 
 const jpCars = cars.slice(1,3);
@@ -53,7 +53,7 @@ function multi2(value,index,array) {
     return value*3;
 }
 
-const over10 = numbs2.filter(over10fn)
+let over10 = numbs2.filter(over10fn)
 console.log(over10);
 
 function over10fn(value) {
@@ -81,7 +81,7 @@ console.log(someOver10);
 let first = numbs.find(over10fn)
 console.log(first);
 
-let firstIndex = numb.findIndex(over10fn);
+let firstIndex = numbs.findIndex(over10fn);
 console.log(firstIndex);
 
 const alphabet = "ABCDEF"
